@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+nav ul{
+    height: 2px;
+}
+.nav_left ul li{
+    margin-top: 15px;
+}
+.nav_right{
+    margin-right: 20px;
+}
+.nav_right ul li{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav_right button{
+    color: white;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    padding: 5px 8px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+section{
+    position: relative;
+}
+section img{
+    max-width: 30%;
+    margin: 10% 0 0 32%;
+}
+
+section .google_text input{
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-left: 30%;
+}
+
+section .google_text input:hover{
+
+    box-shadow: 0.1px 1px 10px 0.1px rgba(211, 211, 211,0.7);
+}
+section .google_search{
+    position: relative;
+}
+section .google_search i{
+    color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 65vh;
+    top: -23px;
+}
+section .google_search img{
+    max-width: 1.7%;
+    left: 73vh;
+    top: -165px;
+    position: absolute;
+}
+.btn{
+    margin: 25px 0 0px 85vh;
+}
+.btn button{
+    border: none;
+    color: #5c5a5a;
+    height: 35px;
+    padding: 0 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer section{
+    width: 100%;
+    border-top: 1px solid  #bbb9b9;
+    display: flex;
+    align-items: center;
+}
+footer section div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+footer section div>a{
+    color: rgba(0,0,0,.54);
+}
+footer section .footer_l{
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+footer section .footer_l>a, footer section .footer_r>a{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+footer section .footer_l>a:active, footer section .footer_r>a:active{
+    color: #dd4b39
+}
+
+footer section .footer_r{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
